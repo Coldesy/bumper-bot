@@ -4,9 +4,9 @@ const { ToadScheduler, SimpleIntervalJob, Task } = require('toad-scheduler')
 const client = new Client(); // All partials are loaded automatically
 
 client.on('ready', async () => {
-  const guild = await client.guilds.fetch('752105258481877073');
+  const guild = await client.guilds.fetch('991050666111795260');
   const channels = await guild.channels.fetch()
-  const r = channels.get('1039188775059849226')
+  const r = channels.get('992124546285043764')
   //getting channel and guild
   
   const scheduler = new ToadScheduler()
