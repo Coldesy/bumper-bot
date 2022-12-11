@@ -7,6 +7,11 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+
+    "node": ">=16.6.0"
+
+  },
   "description": "",
   "dependencies": {
     "discord.js-selfbot-v13": "^2.8.13",
